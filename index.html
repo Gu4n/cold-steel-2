@@ -36,7 +36,7 @@
           <li><a href="#tabMisc" data-toggle="tab">Quests</a></li>
     		  <li><a href="#tabFAQ" data-toggle="tab"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></li>
     		  <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span></a></li>
-        </ul><!-- /.nav.navbar-nav -->
+		  </ul><!-- /.nav.navbar-nav -->
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
@@ -44,7 +44,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h1><a href="http://www.trailsofcoldsteel.com/"><img src=".\img\trailscoldsteel2-logo.png" alt="The Legend of Heroes: Trails of Cold Steel II"></img></a></h1>
+        <h1><a href="http://www.trailsofcoldsteel.com/"><img src=".\img\trailscoldsteel2-logo.png" alt="The Legend of Heroes: Trails of Cold Steel II" width="300px"></img></a></h1>
       </div>
     </div>
 
@@ -275,20 +275,29 @@
         <ul class="table_of_contents">
           <li><a href="#Weapons">Character notes</a> <span id="weapons_nav_totals_1"></span></li>
         </ul>
-
-        <div class="form-group">
-          <input type="search" id="weapons_search" class="form-control" placeholder="Start typing to filter results..." />
-        </div>
+		
+		<hr>
+		
+		<div>Jump to:
+			<ul>
+				<li><a href="#char_act0">Prologue</a></li>
+				<li><a href="#char_act1">Act 1</a></li>
+				<li><a href="#char_int">Intermission</a></li>
+				<li><a href="#char_act2">Act 2</a></li>
+				<li><a href="#char_fin">Finale</a></li>
+				<li><a href="#char_post">Afterwards</a></li>
+		</div>
+		
+		<hr>
 
         <div id="weapons_list">
           <h3 id="Weapons">Characters <span id="weapons_totals_1"></span></h3>
-            <h4>Prologue</h4>
-		  	<ul>
-			<h5>11/30</h5>
+            <h4 id="char_act0">Prologue</h4>
+		  	<h5>11/30</h5>
 				<li data-id="weapons_1_1"><strong>Elise</strong>: Event.</li>
 				<li data-id="weapons_1_2"><strong>Celine</strong>: Auto.</li>
 			</ul>
-			<h4>Act 1</h4>
+			<h4 id="char_act1">Act 1</h4>
 			<ul>
 			<h5>12/1</h5>
 				<li data-id="weapons_1_3"><strong>Rean</strong>: Auto.</li>
@@ -312,13 +321,13 @@
 				<li data-id="weapons_1_17"><strong>Millium</strong>: Bonding Event.</li>
 				<li data-id="weapons_1_18"><strong>Sharon</strong>: Bonding Event.</li>
 			</ul>
-			<h4>Intermission</h4>
+			<h4 id="char_int">Intermission</h4>
 			<ul>
 			<h5>12/13</h5>
 				<li data-id="weapons_1_19"><strong>Rean</strong>: Auto.</li>
 				<li data-id="weapons_1_20"><strong>Crow</strong>: Auto.</li>
 			</ul>
-			<h4>Act 2</h4>
+			<h4 id="char_act2">Act 2</h4>
 			<ul>
 			<h5>12/15</h5>
 				<li data-id="weapons_1_21"><strong>Alfin</strong>: Auto.</li>
@@ -402,7 +411,7 @@
 			<h5>12/30</h5>
 			<li data-id="weapons_1_92"><strong>Monica</strong>: Talk to her in the Courageous, 4F. </li>
 			</ul>
-			<h4>Finale</h4>
+			<h4 id="char_fin">Finale</h4>
 			<ul>
 			<h5>12/30</h5>
 				<li data-id="weapons_1_93"><strong>Crow</strong>: Event.</li>
@@ -443,7 +452,7 @@
 				<li data-id="weapons_1_127"><strong>Instructor Thomas</strong>: Auto.</li>
 				<li data-id="weapons_1_128"><strong>Crow</strong>: Auto.</li>
 			</ul>
-			<h4>Afterwards</h4>
+			<h4 id="char_post">Afterwards</h4>
 			<ul>
 			<h5>3/12</h5>
 				<li data-id="weapons_1_129"><strong>Rean</strong>: Auto.</li>
@@ -510,10 +519,27 @@
         <ul class="table_of_contents">
           <li><a href="#Quests">Quests</a> <span id="crow_nav_totals_1"></span></li>
         </ul>
+		
+<hr>
+		
+		<div>Jump to:
+			<ul>
+				<li><a href="#quest_act1-1">Act 1, Part 1</a></li>
+				<li><a href="#quest_act1-2">Act 1, Part 2</a></li>
+				<li><a href="#quest_act1-3">Act 1, Part 3</a></li>
+				<li><a href="#quest_act2-1">Act 2, Part 1</a></li>
+				<li><a href="#quest_act2-2">Act 2, Part 2</a></li>
+				<li><a href="#quest_act2-3">Act 2, Part 3</a></li>
+				<li><a href="#quest_act2-4">Act 2, Part 4</a></li>
+				<li><a href="#quest_fin">Finale</a></li>
+				<li><a href="#quest_post">Afterwards</a></li>
+		</div>
+		
+<hr>
 
         <div id="crow_list">
           <h3 id="Quests">Quests <span id="crow_totals_1"></span></h3>
-            <h4 id="act1-1">Act 1, Part 1</h4>
+            <h4 id="quest_act1-1">Act 1, Part 1</h4>
 		  	<ul><li data-id="crow_1_1"><strong>Task</strong>: 薬草の調達 [Short] -- <i>Required</i><ul>
 			<strong>Client: </strong>Father Zirbel, Celdic Chapel | <strong>AP:</strong> 4<br>
 			<strong>Rewards</strong>: Teara x2, Athelas x2, 2000 mira.<br>
@@ -538,7 +564,7 @@
 	- Talk to the clients.<br>
 	- Grab the Giant Butterbur* on Ymir Canyon Path 1 and 2.<br>
 	- If you have 2 of them, report back to Alf and Kiki.<br>
-</ul></li><h4>Act 1, Part 2</h4>
+</ul></li><h4 id="quest_act1-2">Act 1, Part 2</h4>
 <li data-id="crow_1_5"><strong>Task</strong>: 高原に放たれた軍用魔獣 [Short]<ul>
 	<strong>Client: </strong>Lacan, Elder's/Worzel Home | <strong>AP</strong>: 4<br>
 	<strong>Rewards</strong>: Nord Bless/Breath*, Monster Ingredients x3, 1500 mira<br>
@@ -559,7 +585,7 @@
 	- Talk to Chef Werner at The Phoenix Wings.<br>
 	- Talk to Gerald in the Tavern Valley's Echo.<br>
 	- Talk to Lisa in the Ymir Chapel.<br>
-</ul></li><h4>Act 1, Part 3</h4><li data-id="crow_1_9"><strong>Task</strong>: 続・門下生との手合わせ [Short]<ul>
+</ul></li><h4 id="quest_act1-3">Act 1, Part 3</h4><li data-id="crow_1_9"><strong>Task</strong>: 続・門下生との手合わせ [Short]<ul>
 	<strong>Client: </strong>Gavelli, Arseid School Training Hall		 | <strong>AP</strong>: 4	<br>
 	<strong>Rewards</strong>: 治癒, 1500 mira<br>
 	- Win the battle.<br>
@@ -588,7 +614,7 @@
 	- Talk to Annabel on Ymir Canyon Path 2.<br>
 	- Fish alongside Annabel.<br>
 	- Beat the critter that shows up.<br>
-</ul></li><h4>Act 2, Part 1</h4><li data-id="crow_1_14"><strong>Task</strong>: 謎の魔獣現る [Short] -- <i>Required</i><ul>
+</ul></li><h4 id="quest_act2-1">Act 2, Part 1</h4><li data-id="crow_1_14"><strong>Task</strong>: 謎の魔獣現る [Short] -- <i>Required</i><ul>
 	<strong>Client: </strong>Elder Ivan, Lake Cabin | <strong>AP</strong>: 4<br>
 	<strong>Rewards</strong>: Sepith hingamajigs x400, 2500 mira<br>
 	- Beat オルトヘイム in front of the giant statue in Nord Highlands - North.<br>
@@ -610,7 +636,7 @@
 	<strong>Client: </strong>Kargo, Legram - Aprikoze Inn | <strong>AP</strong>: 4<br>
 	<strong>Rewards</strong>: Pyon-pyon Watch, 3000 mira<br>
 	- Talk to Patiry in Ymir.<br>
-</ul></li><h4>Act 2, Part 2</h4><li data-id="crow_1_18"><strong>Task</strong>: 騎神の能力テスト [Short] -- <i>Required</i><ul>
+</ul></li><h4 id="quest_act2-2">Act 2, Part 2</h4><li data-id="crow_1_18"><strong>Task</strong>: 騎神の能力テスト [Short] -- <i>Required</i><ul>
 	<strong>Client: </strong>Neithardt, Twin Dragon Bridge - Central Area | <strong>AP</strong>: 3(+2)<br>
 	<strong>Rewards</strong>: 携帯格言集・技, 3500 mira<br>
 	- Fight against the Spiegel.<br>
@@ -625,7 +651,7 @@
 	<strong>Rewards</strong>: Sepith thingamajig x500, 3500 mira<br>
 	- Snowboard, and catch the two silly sheeps for 2 additional AP.<br>
 	- Beat the silly sheep ze boss.<br>
-</ul></li><h4>Act 2, Part 3</h4><li data-id="crow_1_21"><strong>Task</strong>: 行方不明の定期飛行船 [Medium]<ul>
+</ul></li><h4 id="quest_act2-3">Act 2, Part 3</h4><li data-id="crow_1_21"><strong>Task</strong>: 行方不明の定期飛行船 [Medium]<ul>
 	<strong>Client: </strong>Klein and Heibel, Eisengard Trail | <strong>AP</strong>: 4<br>
 	<strong>Rewards</strong>: 4000 mira<br>
 	- Don't forget the chest in the lowest level.<br>
@@ -641,7 +667,7 @@
 	<strong>Rewards</strong>: 虎威, 3000 mira<br>
 	- Go to North Kreuzen Highway 3.<br>
 	- Show the Beardon how it's done.<br>
-</ul></li><h4>Act 2, Part 4</h4><li data-id="crow_1_24"><strong>Task</strong>: Investigating the Lohengrin Castle [Medium]<ul>
+</ul></li><h4 id="quest_act2-4">Act 2, Part 4</h4><li data-id="crow_1_24"><strong>Task</strong>: Investigating the Lohengrin Castle [Medium]<ul>
 	<strong>Client: </strong>Klaus, Bracer Guild - Legram Branch | <strong>AP</strong>: 4<br>
 	<strong>Rewards</strong>: 幻妖牙, 4000 mira<br>
 	- Put Emma in your party. <br>
@@ -671,7 +697,7 @@
 	- Talk to Miner Aman near the platforms.<br>
 	- Talk to Gwen Reinford in Lake Lacrima.<br>
 	- Report back to Jackass.<br>
-</ul></li><h4>Finale</h4><li data-id="crow_1_28"><strong>Task</strong>: East Celdic Road Monster 2 [Short]<ul>
+</ul></li><h4 id="quest_fin">Finale</h4><li data-id="crow_1_28"><strong>Task</strong>: East Celdic Road Monster 2 [Short]<ul>
 	<strong>Client: </strong>Prince Olivert | <strong>AP</strong>: 4<br>
 	<strong>Rewards</strong>: Zemurian Ore Shard x1, 3500 mira<br>
 	- Go to East Celdic Road 3.<br>
@@ -700,7 +726,7 @@
 	- Talk to the Father Hamilcar in Legram Chapel.<br>
 	- Talk to the Archbishop Homs in Roer Cathedral.<br>
 	- Talk to the Father Belnarl in Yumir Chapel.<br>
-</ul></li><h4>Afterwards</h4><li data-id="crow_1_33"><strong>Task</strong>: ライダー雌雄決戦	 [Short] -- <i>Required</i><ul>
+</ul></li><h4 id="quest_post">Afterwards</h4><li data-id="crow_1_33"><strong>Task</strong>: ライダー雌雄決戦	 [Short] -- <i>Required</i><ul>
 	<strong>Client: </strong>Angelica, Academmy - Engineering Building | <strong>AP</strong>: 1(+1)<br>
 	<strong>Rewards</strong>: Lightning Belt, EP Charge IV x3, Engineering Building Replica Key, 3000 mira<br>
 	- Win for 1 additional AP.<br>
